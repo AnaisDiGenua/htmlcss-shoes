@@ -55,14 +55,14 @@ nav ul li a {
 }
 .box#first-model {
     background-color: red;
-    position: relative;
 }
 .box#second-model {
     background-color: green;
-    position: relative;
 }
 .box#third-model {
     background-color: yellow;
+}
+main > div {
     position: relative;
 }
 .item-content {
