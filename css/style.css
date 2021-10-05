@@ -1,5 +1,46 @@
+/* general */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/* *****debug***** */
+.debug header {
+    background-color: lightseagreen
+}
+
+
+
+/* header */
+header {
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    text-align: right;
+    padding-right: 5px;
+}
+nav ul li {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center; 
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
 }
