@@ -18,31 +18,34 @@ body {
 
 
 /* header */
-header {
-    height: 80px;
+header { 
+     height: 80px;   /* tutti questi valori possono essere dati anche direttamente alla nav  */
     line-height: 80px;
     width: 100%;
-    text-align: right;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
+    text-align: right;
     padding-right: 5px;
-    z-index: 1;
+    z-index: 9999;
 }
 nav ul li {
     display: inline-block;
+}
+nav ul li a{
+    display: block;
     height: 40px;
     width: 40px;
     line-height: 40px;
-    text-align: center; 
-    background-color: white;
-    border-radius: 50%;
-    margin: 10px;
-}
-nav ul li a {
+    list-style: none;
     text-decoration: none;
+    text-align: center; 
     color: black;
     font-weight: 700;
+    background-color: white;
+    box-shadow: 2px 4px 6px grey;
+    border-radius: 50%;
+    margin: 10px;
 }
 
 
@@ -51,7 +54,7 @@ nav ul li a {
 .box {
     width: 100%;
     height: 100vh;
-    padding-top: 80px;
+    position: relative;
 }
 .box#first-model {
     background-color: red;
@@ -61,9 +64,6 @@ nav ul li a {
 }
 .box#third-model {
     background-color: yellow;
-}
-main > div {
-    position: relative;
 }
 .item-content {
     width: 40%;
